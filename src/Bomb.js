@@ -1,9 +1,8 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-export default class Bomb extends React.Component {
+class Bomb extends React.Component {
   
   constructor(props) {
-    console.log(props)
     super(props)
     
     this.state = { 
@@ -15,6 +14,8 @@ export default class Bomb extends React.Component {
     
     return (
       <div>{message}</div>
-      )
+      );
   }
 }
+
+export default Bomb;
